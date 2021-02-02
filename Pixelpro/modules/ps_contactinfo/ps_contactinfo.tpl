@@ -24,16 +24,16 @@
  *}
 
 <div class="block-contact col-md-4 links wrapper">
-  <div class="hidden-sm-down">
+  <div>
     <h3>Get everything you like</h3>
     <h2>Super offers</h2>
-    <div class="block col-md-4">
+    <div class="block col-xs-4">
     <div class="icon"><i class="material-icons">&#xE55F;</i></div>
     <div class="data">{$contact_infos.address.formatted nofilter}</div>
   </div>
   {if $contact_infos.phone}
     
-    <div class="block col-md-4">
+    <div class="block col-xs-4">
       <div class="icon"><i class="material-icons">&#xE0CD;</i></div>
       <div class="data">
         
@@ -44,7 +44,7 @@
   
   {if $contact_infos.email}
     
-    <div class="block col-md-4">
+    <div class="block col-xs-4">
       <div class="icon"><i class="material-icons">&#xE158;</i></div>
       <div class="data email">
         

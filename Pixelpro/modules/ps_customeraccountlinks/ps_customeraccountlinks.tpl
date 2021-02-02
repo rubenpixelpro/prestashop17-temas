@@ -29,7 +29,7 @@
       {l s='Your account' d='Shop.Theme.Customeraccount'}
     </a>
   </p>
-  <div class="title clearfix hidden-md-up" data-target="#footer_account_list" data-toggle="collapse">
+  <div class="title clearfix hidden-md-up hidden-sm-down" data-target="#footer_account_list" data-toggle="collapse">
     <span class="h3">{l s='Your account' d='Shop.Theme.Customeraccount'}</span>
     <span class="float-xs-right">
       <span class="navbar-toggler collapse-icons">

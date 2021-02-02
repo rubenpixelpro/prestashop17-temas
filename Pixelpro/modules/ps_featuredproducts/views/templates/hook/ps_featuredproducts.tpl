@@ -27,8 +27,10 @@
     {l s='Popular Products' d='Shop.Theme.Catalog'}
   </h2>
   <div class="products">
-    {foreach from=$products item="product"}
-      {include file="catalog/_partials/miniatures/product.tpl" product=$product}
+  	{assign var=count value=1}
+  	{foreach from=$products item="product"}
+      {include file="catalog/_partials/miniatures/product.tpl" product=$product count=$count}
+      {assign var=count value=$count+1}
     {/foreach}
   </div>
   

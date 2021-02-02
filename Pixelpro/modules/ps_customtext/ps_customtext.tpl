@@ -23,6 +23,6 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div id="custom-text" class="col-lg-4">
+<div id="custom-text" class="col-lg-4 hidden-sm-down">
   {$cms_infos.text nofilter}
 </div>

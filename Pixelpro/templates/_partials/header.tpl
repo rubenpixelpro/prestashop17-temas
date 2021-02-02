@@ -47,7 +47,8 @@
           </div>
           <div class="float-xs-right" id="_mobile_cart"></div>
           <div class="float-xs-right" id="_mobile_user_info"></div>
-          <div class="top-logo" id="_mobile_logo"></div>
+          <div class="top-logo" id="_mobile_logo" style="display: inline-block; padding-top: 5px"></div>
+          <div class="float-xs-right" id="_mobile_search_bar"></div>
           <div class="clearfix"></div>
         </div>
       </div>

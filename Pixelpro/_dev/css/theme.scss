@@ -246,8 +246,16 @@
       max-height: inherit;
       .search-widget {
        float: none;
-       width: 15.63rem;
+       width: 10.63rem;
+       form {
+        input[type="text"] {
+          min-width:100px;
+          background: #fff;
+          width: 100%;
+        }
+       }
       }
+
     }
   }
 }
@@ -377,6 +385,7 @@
   .block-contact {
     padding-left: 0.9375rem;
     border: none;
+    font-size: 11px;
   }
   .menu,
   .dropdown-item {
