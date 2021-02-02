@@ -403,3 +403,9 @@ input[type=number] {
     margin: 0;
   }
 }
+
+.best {
+  article:first-of-type div {
+    background-color: #bbb5cf;
+  }
+}

@@ -51,6 +51,7 @@ global_settings:
   configuration:
     PS_IMAGE_QUALITY: png
     HOME_FEATURED_NBR: 10
+    PS_BLOCK_BESTSELLERS_TO_DISPLAY: 2
   modules:
     to_enable:
       - ps_linklist
@@ -58,13 +59,13 @@ global_settings:
       - ps_languageselector
       - ps_currencyselector
       - ps_customersignin
-      - ps_shoppingcart
+      
   hooks:
     modules_to_hook:
       displayNav1:
         - ps_contactinfo
       displayNav2:
-        
+        - ps_shoppingcart
       displayTop:
         - ps_searchbar
         - ps_mainmenu
@@ -72,6 +73,7 @@ global_settings:
         - ps_imageslider
       displayHome:
         - ps_featuredproducts
+        - ps_bestsellers
         - ps_banner
         - ps_customtext
       displayFooterBefore:
