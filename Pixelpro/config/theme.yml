@@ -77,7 +77,6 @@ global_settings:
         - ps_banner
         - ps_customtext
       displayFooterBefore:
-        - ps_emailsubscription
         - ps_socialfollow
       displayFooter:
         - ps_linklist
